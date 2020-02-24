@@ -19,7 +19,7 @@ function HandleOnClick(obj) {
                 break;
                 
             case "GDButton":
-                vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Glazing-Doughnuts.webm/Glazing-Doughnuts.webm.360p.vp9.webm";
+                vidsource.src = "eye.mp4";
                 vidsource.type = 'video/mp4; pip=true;'
                 break;
         }
