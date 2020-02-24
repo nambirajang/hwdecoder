@@ -11,7 +11,7 @@ function HandleOnClick(obj) {
             case "BBBButton":
                 vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Big_Buck_Bunny_alt.webm/Big_Buck_Bunny_alt.webm.360p.vp9.webm";
                 //vidsource.src = "Big_Buck_Bunny_alt.webm.360p.vp9.webm"
-                vidsource.type = 'pip=true;'
+                vidsource.type = 'video/webm; pip=true;'
                 break;
             
             /*case "EDButton":
@@ -23,7 +23,7 @@ function HandleOnClick(obj) {
             case "GDButton":
                 vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Glazing-Doughnuts.webm/Glazing-Doughnuts.webm.360p.vp9.webm";
                 //vidsource.src = "Glazing-Doughnuts.webm.360p.vp9.webm"
-                vidsource.type = 'pip=true;'
+                vidsource.type = 'video/webm; pip=true;'
                 break;
         }
         vid_elm.load();
