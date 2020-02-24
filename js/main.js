@@ -3,7 +3,7 @@ function HandleOnClick(obj) {
     var chatpan = document.getElementById("chatpan1");
     var vidsource= document.getElementById("videosource");
                     
-    if( (obj.id == "BBBButton") || (obj.id == "EDButton") ||(obj.id == "GDButton") ) {
+    if( (obj.id == "BBBButton") /*|| (obj.id == "EDButton")*/ ||(obj.id == "GDButton") ) {
         console.log("Handle URL!!");
         vid_elm.pause();
         switch(obj.id)
@@ -14,11 +14,11 @@ function HandleOnClick(obj) {
                 vidsource.type = 'video/webm; pip=true;'
                 break;
             
-            case "EDButton":
+            /*case "EDButton":
                 vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.360p.vp9.webm";
                 //vidsource.src = "Elephants_Dream_(2006).webm.360p.vp9.webm"
                 vidsource.type = 'video/webm; pip=true;'
-                break;
+                break;*/
                 
             case "GDButton":
                 vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Glazing-Doughnuts.webm/Glazing-Doughnuts.webm.360p.vp9.webm";
