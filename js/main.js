@@ -9,20 +9,17 @@ function HandleOnClick(obj) {
         switch(obj.id)
         {
             case "BBBButton":
-                //vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Big_Buck_Bunny_alt.webm/Big_Buck_Bunny_alt.webm.360p.vp9.webm";
-                vidsource.src = "Video-1080p.mp4"
+                vidsource.src = "BigBuckBunny.mp4"
                 vidsource.type = 'video/mp4; pip=true;'
                 break;
             
             case "EDButton":
-                vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Elephants_Dream_%282006%29.webm/Elephants_Dream_%282006%29.webm.360p.vp9.webm";
-                //vidsource.src = "Elephants_Dream_(2006).webm.360p.vp9.webm"
+                vidsource.src = "car_20130125_18.mp4"
                 vidsource.type = 'video/mp4; pip=true;'
                 break;
                 
             case "GDButton":
-                //vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Glazing-Doughnuts.webm/Glazing-Doughnuts.webm.360p.vp9.webm";
-                vidsource.src = "Sample.mp4"
+                vidsource.src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Glazing-Doughnuts.webm/Glazing-Doughnuts.webm.360p.vp9.webm";
                 vidsource.type = 'video/mp4; pip=true;'
                 break;
         }
